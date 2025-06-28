@@ -9,36 +9,97 @@
 </head>
 <body>
 
-    <div>   
+    <header>
         <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+            <img src="assets/images/logo.png" width="200" alt="Logotipo do site"/>
         </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+        <nav class="sidebar">
+            <h2>Séries</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="#got">Game of Thrones</a></li>
+                <li><a href="#db">Dragon Ball</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <main class="main">
+            <article>
+                <h1 id="got">Game of Thrones</h1>
+                <p>Baseada na série de livros "As Crônicas de Gelo e Fogo" de George R.R. Martin, Game of Thrones é uma série de televisão de drama e fantasia criada por David Benioff e D.B. Weiss. A série se passa em Westeros, um continente fictício onde as estações podem durar anos, e segue a luta de várias famílias nobres pelo Trono de Ferro dos Sete Reinos.</p>
+                <figure>
+                    <img src="assets/images/game-of-thrones.png" width="500" alt="Imagem promocional de Game of Thrones com os principais personagens."/>
+                    <figcaption>Imagem promocional de Game of Thrones</figcaption>
+                </figure>
+                <section>
+                    <h2 id="got-enredo">Enredo</h2>
+                    <p>A trama principal gira em torno da luta pelo poder entre as grandes Casas de Westeros. Enquanto as famílias nobres conspiram e batalham pelo controle do Trono de Ferro, uma antiga ameaça ressurge no Norte, além da Muralha: os Caminhantes Brancos, seres sobrenaturais que ameaçam toda a humanidade. Além disso, no continente de Essos, Daenerys Targaryen, a última descendente da antiga dinastia real, busca reunir um exército para reconquistar o trono de sua família.</p>
+                </section>
+                <section>
+                    <h2 id="got-personagens">Personagens Principais</h2>
+                    <ul>
+                        <li><strong>Daenerys Targaryen:</strong> Conhecida como a "Mãe dos Dragões", busca restaurar a dinastia Targaryen.</li>
+                        <li><strong>Jon Snow:</strong> Filho bastardo de Eddard Stark, que se junta à Patrulha da Noite e descobre sua verdadeira linhagem.</li>
+                        <li><strong>Tyrion Lannister:</strong> Um anão inteligente e perspicaz da rica e poderosa Casa Lannister.</li>
+                        <li><strong>Cersei Lannister:</strong> A ambiciosa e implacável rainha dos Sete Reinos.</li>
+                        <li><strong>Arya Stark:</strong> A filha mais nova de Eddard Stark, que se torna uma assassina habilidosa.</li>
+                    </ul>
+                </section>
+            </article>
 
-        <div class="anchors">
+            <hr>
+
+            <article>
+                <h1 id="db">Dragon Ball</h1>
+                <p>Criado por Akira Toriyama, Dragon Ball é uma franquia de mídia japonesa que começou como uma série de mangá em 1984. A história segue as aventuras de Son Goku, desde sua infância até a idade adulta, enquanto ele treina artes marciais e explora o mundo em busca das sete esferas mágicas conhecidas como Esferas do Dragão.</p>
+                <figure>
+                    <img src="assets/images/goku.png" width="500" alt="Imagem de Goku em sua forma de criança em Dragon Ball."/>
+                    <figcaption>Son Goku em Dragon Ball</figcaption>
+                </figure>
+                <section>
+                    <h2 id="db-sagas">Sagas</h2>
+                    <p>A franquia Dragon Ball é dividida em várias sagas, cada uma com seus próprios arcos de história e vilões:</p>
+                    <ul>
+                        <li><strong>Dragon Ball:</strong> A série original foca nas aventuras de Goku criança, sua busca pelas Esferas do Dragão e seus primeiros torneios de artes marciais.</li>
+                        <li><strong>Dragon Ball Z:</strong> Goku, agora adulto, descobre que é um Saiyajin, uma raça de guerreiros extraterrestres. Esta fase é marcada por batalhas épicas contra inimigos poderosos como Freeza, Cell e Majin Boo.</li>
+                        <li><strong>Dragon Ball Super:</strong> Continuação canônica de Dragon Ball Z, a série apresenta novas transformações, deuses da destruição e universos alternativos.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 id="db-personagens">Personagens Principais</h2>
+                    <ul>
+                        <li><strong>Son Goku:</strong> O protagonista da série, um Saiyajin de coração puro que adora lutar e proteger a Terra.</li>
+                        <li><strong>Vegeta:</strong> O príncipe dos Saiyajins, que começa como um vilão e se torna um dos maiores aliados de Goku.</li>
+                        <li><strong>Gohan:</strong> O primeiro filho de Goku, que possui um grande potencial de luta.</li>
+                        <li><strong>Piccolo:</strong> Um Namekuseijin que era um inimigo de Goku, mas se torna um de seus amigos mais próximos e mentor de Gohan.</li>
+                        <li><strong>Bulma:</strong> Uma cientista brilhante e amiga de longa data de Goku, que o ajuda em suas aventuras com suas invenções.</li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+
+        <aside class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#got">Game of Thrones</a></li>
+                <ul>
+                    <li><a href="#got-enredo">Enredo</a></li>
+                    <li><a href="#got-personagens">Personagens</a></li>
+                </ul>
+                <li><a href="#db">Dragon Ball</a></li>
+                <ul>
+                    <li><a href="#db-sagas">Sagas</a></li>
+                    <li><a href="#db-personagens">Personagens</a></li>
+                </ul>
             </ul>
-        </div>
+        </aside>
     </div>
 
-    <div class="footer">
-
-    </div>
+    <footer class="footer">
+        <p>Página criada para o desafio de recriar a Wikipedia.</p>
+    </footer>
 </body>
 </html>
